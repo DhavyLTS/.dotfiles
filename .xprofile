@@ -1,0 +1,6 @@
+export VK_DRIVER_FILES=/usr/share/vulkan/icd.d/radeon_icd.i686.json:/usr/share/vulkan/icd.d/radeon_icd.x86_64.json
+export GTK_THEME=adw-gtk3-dark
+
+xrandr --output HDMI-A-0 --mode "1920x1080"
+xrandr --newmode "1920x1080R"  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync
+xrandr --addmode HDMI-A-0 "1920x1080R"
